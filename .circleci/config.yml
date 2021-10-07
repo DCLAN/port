@@ -11,6 +11,10 @@ workflows:
       - linting:
           requires:
             - react/install
+      - react/build:
+            requires:
+            - react/test
+            - linting
 
 
 jobs:
@@ -23,4 +27,4 @@ jobs:
       - run: yarn install
       - run: yarn eslint src/**/*.ts{,x} --max-warnings=0
       - store_test_results:
-          path: "f"
+          path: "junit.xml"

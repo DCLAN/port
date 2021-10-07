@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="5.172">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-10-07T13:42:44" time="3.304" tests="1">
+    <testcase classname=" renders Home page" name=" renders Home page" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-10-07T13:42:44" time="3.4" tests="1">
+    <testcase classname=" renders bikes page" name=" renders bikes page" time="0.035">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-10-07T13:42:44" time="3.463" tests="4">
+    <testcase classname=" renders home link" name=" renders home link" time="0.041">
+    </testcase>
+    <testcase classname=" renders topnav middle spacer" name=" renders topnav middle spacer" time="0.011">
+    </testcase>
+    <testcase classname=" renders resume link" name=" renders resume link" time="0.009">
+    </testcase>
+    <testcase classname=" renders bikes link" name=" renders bikes link" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-10-07T13:42:44" time="3.514" tests="1">
+    <testcase classname=" renders topnav separation hr" name=" renders topnav separation hr" time="0.037">
+    </testcase>
+  </testsuite>
+</testsuites>
